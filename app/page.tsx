@@ -190,7 +190,7 @@ const Page: FC = () => {
       <section className="w-full flex justify-center bg-white py-4 md:py-16 px-2 md:px-4">
         <div className="max-w-4xl w-full">
           <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-2">Confidence with OneFix Labs</h2>
-          <p className="text-center text-gray-600 mb-8">"See how real guys dealing with hair loss are finally getting their confidence — and identity — back. No pills. No fluff. Just results that feel real.</p>
+          <p className="text-center text-gray-600 mb-8">"See how real guys dealing with hair loss are finally getting their confidence — and identity — back. No pills. No fluff. Just results that feel real."</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             {/* Review 1 */}
             <div className="bg-blue-50 rounded-xl shadow p-2 md:p-4 flex flex-row items-center gap-3 md:gap-6 mb-3">
@@ -423,6 +423,9 @@ const Page: FC = () => {
         <div className="max-w-5xl w-full">
           <h2 className="text-2xl md:text-3xl font-bold text-center text-purple-900 mb-2">I Kept Seeing the Same Ingredients — Over and Over — And It Finally Clicked</h2>
           <p className="text-center text-purple-700 mb-10">These weren't trendy shampoo swaps or influencer "hair hacks." They were grounded in real biology — and built for guys like me, the ones who were tired of wasting money on stuff that never reached the root. Saw Palmetto. Caffeine. Apigenin. Microneedling. Not magic — but mechanisms. Not hype — but hormones, blood flow, and scalp repair. That's when it hit me: It wasn't about forcing hair to grow. It was about rebuilding the place it grows from.</p>
+          
+
+          
           <div className="grid grid-cols-3 gap-3 md:gap-6 mb-8">
             {/* Saw Palmetto */}
             <div className="flex flex-col items-center text-center">
@@ -688,41 +691,75 @@ const Page: FC = () => {
         </div>
       </section>
       {/* Old Way vs New Way Section */}
-      <section className="w-full flex justify-center bg-white py-4 md:py-16 px-2 md:px-4">
-        <div className="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Old Way */}
-          <div className="bg-red-50 rounded-2xl p-3 md:p-6 flex flex-col items-center">
-            <div className="text-2xl font-bold text-red-500 mb-6">THE OLD WAY</div>
-            <div className="flex flex-col gap-6 w-full relative">
-              <div className="bg-white rounded-lg p-2 md:p-4 text-center text-gray-700 shadow">Staring in the mirror, pulling your hair back to check how much you've lost</div>
-              <div className="h-4 w-1 bg-red-200 mx-auto"></div>
-              <div className="bg-white rounded-lg p-2 md:p-4 text-center text-gray-700 shadow">Wasting money on shampoos, oils, and influencer "fixes" that never actually work</div>
-              <div className="h-4 w-1 bg-red-200 mx-auto"></div>
-              <div className="bg-white rounded-lg p-2 md:p-4 text-center text-gray-700 shadow">Taking supplements that "might help" — with zero noticeable change</div>
-              <div className="h-4 w-1 bg-red-200 mx-auto"></div>
-              <div className="bg-white rounded-lg p-2 md:p-4 text-center text-gray-700 shadow">Contemplating spending thousands on a hair transplant</div>
-              <div className="h-4 w-1 bg-red-200 mx-auto"></div>
-              <div className="bg-white rounded-lg p-2 md:p-4 text-center text-gray-700 shadow">Wearing hats to dates, work, the gym — just to avoid the shame
-              </div>
-              <div className="h-4 w-1 bg-red-200 mx-auto"></div>
-              <div className="bg-white rounded-lg p-2 md:p-4 text-center text-gray-700 shadow">Hearing the same advice: "just shave it" or "it's normal" — and getting nowhere</div>
-            </div>
+      <section className="w-full flex justify-center bg-white py-8 md:py-20 px-4 md:px-8">
+        <div className="max-w-7xl w-full">
+          {/* Section Header */}
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">The Choice is Clear</h2>
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">See how OneFix Labs' science-backed approach compares to everything else you've tried</p>
           </div>
+          
+          {/* Comparison Image */}
+          <div className="text-center mb-12">
+            <img src="/2X4A0197.JPG" alt="Hair loss comparison" className="w-full max-w-2xl mx-auto h-auto object-contain rounded-2xl shadow-lg" />
+          </div>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16">
+            {/* Old Way */}
+            <div className="bg-gradient-to-br from-red-50 to-red-100 rounded-3xl p-6 md:p-10 flex flex-col">
+              <div className="text-center mb-8">
+                <h3 className="text-2xl md:text-3xl font-bold text-red-600 mb-2">THE OLD WAY</h3>
+                <p className="text-red-700 text-sm md:text-base">Everything you've tried that didn't work</p>
+              </div>
+              
+              <div className="flex-1 space-y-4">
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 md:p-5 text-center text-gray-700 shadow-sm border border-red-200">
+                  <p className="font-medium">Staring in the mirror, pulling your hair back to check how much you've lost</p>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 md:p-5 text-center text-gray-700 shadow-sm border border-red-200">
+                  <p className="font-medium">Wasting money on shampoos, oils, and influencer "fixes" that never actually work</p>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 md:p-5 text-center text-gray-700 shadow-sm border border-red-200">
+                  <p className="font-medium">Taking supplements that "might help" — with zero noticeable change</p>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 md:p-5 text-center text-gray-700 shadow-sm border border-red-200">
+                  <p className="font-medium">Contemplating spending thousands on a hair transplant</p>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 md:p-5 text-center text-gray-700 shadow-sm border border-red-200">
+                  <p className="font-medium">Wearing hats to dates, work, the gym — just to avoid the shame</p>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 md:p-5 text-center text-gray-700 shadow-sm border border-red-200">
+                  <p className="font-medium">Hearing the same advice: "just shave it" or "it's normal" — and getting nowhere</p>
+                </div>
+              </div>
+            </div>
           {/* New Way */}
-          <div className="bg-green-50 rounded-2xl p-3 md:p-6 flex flex-col items-center">
-            <div className="text-2xl font-bold text-green-600 mb-6">THE NEW WAY</div>
-            <div className="flex flex-col gap-6 w-full relative">
-              <div className="bg-green-100 rounded-lg p-2 md:p-4 text-center text-green-900 shadow">Target the real root: DHT overload, PGD₂, inflammation, and blood-starved follicles</div>
-              <div className="h-4 w-1 bg-green-200 mx-auto"></div>
-              <div className="bg-green-100 rounded-lg p-2 md:p-4 text-center text-green-900 shadow">Powered by science — not hope, hype, or TikTok tricks</div>
-              <div className="h-4 w-1 bg-green-200 mx-auto"></div>
-              <div className="bg-green-100 rounded-lg p-2 md:p-4 text-center text-green-900 shadow">A 2-part system: microneedle + active serum, built to reach deep beneath the scalp barrier</div>
-              <div className="h-4 w-1 bg-green-200 mx-auto"></div>
-              <div className="bg-green-100 rounded-lg p-2 md:p-4 text-center text-green-900 shadow">Block the hormonal attack, restore circulation, and reawaken dormant follicles</div>
-              <div className="h-4 w-1 bg-green-200 mx-auto"></div>
-              <div className="bg-green-100 rounded-lg p-2 md:p-4 text-center text-green-900 shadow">Watch shedding slow, fine hairs return, and your confidence rebuild</div>
-              <div className="h-4 w-1 bg-green-200 mx-auto"></div>
-              <div className="bg-green-100 rounded-lg p-2 md:p-4 text-center text-green-900 shadow">Wake up knowing you're finally doing something that works</div>
+            <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-3xl p-6 md:p-10 flex flex-col">
+              <div className="text-center mb-8">
+                <h3 className="text-2xl md:text-3xl font-bold text-green-600 mb-2">THE NEW WAY</h3>
+                <p className="text-green-700 text-sm md:text-base">The OneFix Labs difference</p>
+              </div>
+              
+              <div className="flex-1 space-y-4">
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 md:p-5 text-center text-green-900 shadow-sm border border-green-200">
+                  <p className="font-medium">Target the real root: DHT overload, PGD₂, inflammation, and blood-starved follicles</p>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 md:p-5 text-center text-green-900 shadow-sm border border-green-200">
+                  <p className="font-medium">Powered by science — not hope, hype, or TikTok tricks</p>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 md:p-5 text-center text-green-900 shadow-sm border border-green-200">
+                  <p className="font-medium">A 2-part system: microneedle + active serum, built to reach deep beneath the scalp barrier</p>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 md:p-5 text-center text-green-900 shadow-sm border border-green-200">
+                  <p className="font-medium">Block the hormonal attack, restore circulation, and reawaken dormant follicles</p>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 md:p-5 text-center text-green-900 shadow-sm border border-green-200">
+                  <p className="font-medium">Watch shedding slow, fine hairs return, and your confidence rebuild</p>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 md:p-5 text-center text-green-900 shadow-sm border border-green-200">
+                  <p className="font-medium">Wake up knowing you're finally doing something that works</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -814,7 +851,7 @@ const Page: FC = () => {
             <div className="flex-1 text-white">
               <div className="flex items-center gap-2 mb-1">
                 <span className="text-yellow-300 text-lg">⚠️</span>
-                <span className="font-bold text-lg md:text-xl">July has a high risk of selling out</span>
+                <span className="font-bold text-lg md:text-xl">There is a high risk of selling out</span>
               </div>
               <div className="text-white/90 text-sm md:text-base">OneFix Labs uses rare, high-quality actives like Apigenin and Saw Palmetto — combined with a precision microneedling system. Each batch is small-run to ensure potency. When it's gone, restocks take time. - If it's in stock, don't wait.</div>
             </div>
@@ -922,6 +959,17 @@ const Page: FC = () => {
       <section className="w-full flex flex-col items-center bg-blue-50 py-8 md:py-16 px-2 md:px-4">
         <div className="max-w-5xl w-full">
           <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-900 mb-6">How OneFix Labs Compares to the Alternatives</h2>
+          
+          {/* Formula Introduction */}
+          <div className="mb-8 text-center">
+            <img src="/2025-8-15 JZ9168.jpg" alt="Formula that works from the root up" className="w-56 h-64 md:w-64 md:h-80 object-contain rounded-lg mx-auto mb-4 shadow-md" />
+            <div className="flex items-center justify-center gap-3 mb-3">
+              <span className="text-3xl">🧬</span>
+              <span className="font-bold text-2xl md:text-3xl text-green-600">Finally, a Formula That Works From the Root Up</span>
+            </div>
+            <div className="text-gray-700 text-lg">Backed by clinical research, scalp biology, and real-world regrowth results — featuring ingredients like:</div>
+          </div>
+          
           <div className="overflow-x-auto">
             <table className="min-w-[700px] w-full border-separate border-spacing-y-2">
               <thead>
@@ -1037,8 +1085,8 @@ const Page: FC = () => {
             </div>
           </div>
           <div className="italic text-gray-600 mt-2">All combined in one targeted system designed to repair the ground your hair grows from — and finally give it a reason to grow back.</div>
-          </div>
-        </section>
+        </div>
+      </section>
       {/* Pricing/Package Choice Section */}
       <HairGrowthBuyBox />
       {/* Footer */}
