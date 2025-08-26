@@ -557,7 +557,7 @@ const Page: FC = () => {
               rel="noopener noreferrer"
               className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 rounded-full text-lg transition mb-2 flex items-center justify-center gap-2 shadow text-center"
             >
-              SUBSCRIBE & SAVE <span>🛒</span>
+              BUY NOW <span>🛒</span>
             </a>
             <div className="flex gap-6 mt-2">
               <div className="flex items-center gap-2 text-green-600 text-sm"><span>●</span> 60-Day Money Back Guarantee</div>
@@ -616,7 +616,7 @@ const Page: FC = () => {
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full text-lg transition shadow"
             >
-              RECLAIM YOUR CONFIDENCE
+              BUY NOW
             </a>
             </div>
           </div>
@@ -685,7 +685,7 @@ const Page: FC = () => {
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full text-lg transition shadow"
             >
-              RECLAIM YOUR CONFIDENCE
+              BUY NOW
             </a>
           </div>
         </div>
