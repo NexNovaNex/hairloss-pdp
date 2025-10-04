@@ -9,7 +9,7 @@ const pricing = {
 };
 
 // Single product page URL for all CTAs
-const productPageUrl = 'https://www.onefixlabs.com/products/onefix%E2%84%A2-advanced-micro-infusion-hair-regrowth-kit?variant=55476048822607';
+const productPageUrl = 'https://trynow.onefixlabs.com/OFL-sa';
 
 const HairGrowthBuyBox = () => {
   const [bottles, setBottles] = useState<2 | 4 | 6>(4);
