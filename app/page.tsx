@@ -31,7 +31,7 @@ const inter = Inter({
 })
 
 // Product page URL for all CTAs
-const productPageUrl = 'https://trynow.onefixlabs.com/OFL-sa';
+const productPageUrl = 'https://try-onefixlabs.com/products/onefix%E2%84%A2-advanced-micro-infusion-hair-regrowth-set';
 
 const Page: FC = () => {
   const observerRef = useRef<IntersectionObserver | null>(null);
